@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() 
+{
+    int a,b,c,d;
+    printf("the price of rice:",a);
+    scanf("%d",&a);
+    printf("the price of sugar:",b);
+    scanf("%d",&b);
+    printf("the price of oil:",c);
+    scanf("%d",&c);
+    int total=(a+b+c);
+    printf("the sub tota:%d",total);
+    int tax=(total)*0.05;
+    d=total+tax;
+    printf("the total amount after tax:%d",d);
+    return 0;
+    }
